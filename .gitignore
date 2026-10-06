@@ -1,0 +1,7 @@
+node_modules/
+dist/
+data/
+*.log
+.vite/
+# Screenshots the UI smoke test writes on every run
+scripts/out/

@@ -1,0 +1,1639 @@
+{
+ "source": "CargoDesk db/cargodesk.sample.db (countries + country_trade_lanes), copied 2026-10-01; ZA, ZM, ZW added here (missing from CargoDesk's list, which stops at YE), lane SAF like their neighbours and their ports' AF-SAF zone",
+ "countries": [
+  {
+   "iso2": "AD",
+   "name": "Andorra",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "AE",
+   "name": "United Arab Emirates",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "AF",
+   "name": "Afghanistan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "AG",
+   "name": "Antigua and Barbuda",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "AL",
+   "name": "Albania",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "AM",
+   "name": "Armenia",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "AO",
+   "name": "Angola",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "AR",
+   "name": "Argentina",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "AT",
+   "name": "Austria",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "AU",
+   "name": "Australia",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "AW",
+   "name": "Aruba",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "AZ",
+   "name": "Azerbaijan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "BA",
+   "name": "Bosnia and Herzegovina",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "BB",
+   "name": "Barbados",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "BD",
+   "name": "Bangladesh",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "BE",
+   "name": "Belgium",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "BF",
+   "name": "Burkina Faso",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "BG",
+   "name": "Bulgaria",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "BH",
+   "name": "Bahrain",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "BI",
+   "name": "Burundi",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "BJ",
+   "name": "Benin",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "BM",
+   "name": "Bermuda",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "BN",
+   "name": "Brunei Darussalam",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "BO",
+   "name": "Bolivia",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "BR",
+   "name": "Brazil",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "BS",
+   "name": "Bahamas",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "BT",
+   "name": "Bhutan",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "BW",
+   "name": "Botswana",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "BY",
+   "name": "Belarus",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "BZ",
+   "name": "Belize",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "CA",
+   "name": "Canada",
+   "unMember": true,
+   "lanes": [
+    "NAM"
+   ]
+  },
+  {
+   "iso2": "CD",
+   "name": "Congo, Dem. Rep.",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "CF",
+   "name": "Central African Republic",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "CG",
+   "name": "Congo",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "CH",
+   "name": "Switzerland",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "CI",
+   "name": "Côte d'Ivoire",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "CL",
+   "name": "Chile",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "CM",
+   "name": "Cameroon",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "CN",
+   "name": "China",
+   "unMember": true,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "CO",
+   "name": "Colombia",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "CR",
+   "name": "Costa Rica",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "CU",
+   "name": "Cuba",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "CV",
+   "name": "Cabo Verde",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "CW",
+   "name": "Curaçao",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "CY",
+   "name": "Cyprus",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "CZ",
+   "name": "Czech Republic",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "DE",
+   "name": "Germany",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "DJ",
+   "name": "Djibouti",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "DK",
+   "name": "Denmark",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "DM",
+   "name": "Dominica",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "DO",
+   "name": "Dominican Republic",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "DZ",
+   "name": "Algeria",
+   "unMember": true,
+   "lanes": [
+    "NAF"
+   ]
+  },
+  {
+   "iso2": "EC",
+   "name": "Ecuador",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "EE",
+   "name": "Estonia",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "EG",
+   "name": "Egypt",
+   "unMember": true,
+   "lanes": [
+    "ME",
+    "NAF"
+   ]
+  },
+  {
+   "iso2": "ER",
+   "name": "Eritrea",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "ES",
+   "name": "Spain",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "ET",
+   "name": "Ethiopia",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "FI",
+   "name": "Finland",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "FJ",
+   "name": "Fiji",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "FM",
+   "name": "Micronesia",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "FR",
+   "name": "France",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "GA",
+   "name": "Gabon",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GB",
+   "name": "United Kingdom",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "GD",
+   "name": "Grenada",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "GE",
+   "name": "Georgia",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "GH",
+   "name": "Ghana",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GI",
+   "name": "Gibraltar",
+   "unMember": false,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "GM",
+   "name": "Gambia",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GN",
+   "name": "Guinea",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GQ",
+   "name": "Equatorial Guinea",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GR",
+   "name": "Greece",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "GT",
+   "name": "Guatemala",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "GU",
+   "name": "Guam",
+   "unMember": false,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "GW",
+   "name": "Guinea-Bissau",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "GY",
+   "name": "Guyana",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "HK",
+   "name": "Hong Kong",
+   "unMember": false,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "HN",
+   "name": "Honduras",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "HR",
+   "name": "Croatia",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "HT",
+   "name": "Haiti",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "HU",
+   "name": "Hungary",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "ID",
+   "name": "Indonesia",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "IE",
+   "name": "Ireland",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "IL",
+   "name": "Israel",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "IN",
+   "name": "India",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "IQ",
+   "name": "Iraq",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "IR",
+   "name": "Iran",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "IS",
+   "name": "Iceland",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "IT",
+   "name": "Italy",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "JM",
+   "name": "Jamaica",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "JO",
+   "name": "Jordan",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "JP",
+   "name": "Japan",
+   "unMember": true,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "KE",
+   "name": "Kenya",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "KG",
+   "name": "Kyrgyzstan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "KH",
+   "name": "Cambodia",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "KI",
+   "name": "Kiribati",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "KM",
+   "name": "Comoros",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "KN",
+   "name": "Saint Kitts and Nevis",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "KP",
+   "name": "Korea, North",
+   "unMember": true,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "KR",
+   "name": "Korea, South",
+   "unMember": true,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "KW",
+   "name": "Kuwait",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "KZ",
+   "name": "Kazakhstan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "LA",
+   "name": "Laos",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "LB",
+   "name": "Lebanon",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "LC",
+   "name": "Saint Lucia",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "LI",
+   "name": "Liechtenstein",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "LK",
+   "name": "Sri Lanka",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "LR",
+   "name": "Liberia",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "LS",
+   "name": "Lesotho",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "LT",
+   "name": "Lithuania",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "LU",
+   "name": "Luxembourg",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "LV",
+   "name": "Latvia",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "LY",
+   "name": "Libya",
+   "unMember": true,
+   "lanes": [
+    "NAF"
+   ]
+  },
+  {
+   "iso2": "MA",
+   "name": "Morocco",
+   "unMember": true,
+   "lanes": [
+    "NAF"
+   ]
+  },
+  {
+   "iso2": "MC",
+   "name": "Monaco",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "MD",
+   "name": "Moldova",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "ME",
+   "name": "Montenegro",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "MG",
+   "name": "Madagascar",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "MH",
+   "name": "Marshall Islands",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "MK",
+   "name": "North Macedonia",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "ML",
+   "name": "Mali",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "MM",
+   "name": "Myanmar",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "MN",
+   "name": "Mongolia",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "MO",
+   "name": "Macao",
+   "unMember": false,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "MP",
+   "name": "Northern Mariana Islands",
+   "unMember": false,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "MR",
+   "name": "Mauritania",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "MT",
+   "name": "Malta",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "MU",
+   "name": "Mauritius",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "MV",
+   "name": "Maldives",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "MW",
+   "name": "Malawi",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "MX",
+   "name": "Mexico",
+   "unMember": true,
+   "lanes": [
+    "NAM"
+   ]
+  },
+  {
+   "iso2": "MY",
+   "name": "Malaysia",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "MZ",
+   "name": "Mozambique",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "NA",
+   "name": "Namibia",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "NC",
+   "name": "New Caledonia",
+   "unMember": false,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "NE",
+   "name": "Niger",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "NG",
+   "name": "Nigeria",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "NI",
+   "name": "Nicaragua",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "NL",
+   "name": "Netherlands",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "NO",
+   "name": "Norway",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "NP",
+   "name": "Nepal",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "NR",
+   "name": "Nauru",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "NZ",
+   "name": "New Zealand",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "OM",
+   "name": "Oman",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "PA",
+   "name": "Panama",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "PE",
+   "name": "Peru",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "PF",
+   "name": "French Polynesia",
+   "unMember": false,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "PG",
+   "name": "Papua New Guinea",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "PH",
+   "name": "Philippines",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "PK",
+   "name": "Pakistan",
+   "unMember": true,
+   "lanes": [
+    "ISC"
+   ]
+  },
+  {
+   "iso2": "PL",
+   "name": "Poland",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "PR",
+   "name": "Puerto Rico",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "PS",
+   "name": "Palestine",
+   "unMember": false,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "PT",
+   "name": "Portugal",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "PW",
+   "name": "Palau",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "PY",
+   "name": "Paraguay",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "QA",
+   "name": "Qatar",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "RE",
+   "name": "Réunion",
+   "unMember": false,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "RO",
+   "name": "Romania",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "RS",
+   "name": "Serbia",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "RU",
+   "name": "Russian Federation",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "RW",
+   "name": "Rwanda",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "SA",
+   "name": "Saudi Arabia",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "SB",
+   "name": "Solomon Islands",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "SC",
+   "name": "Seychelles",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "SD",
+   "name": "Sudan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "SE",
+   "name": "Sweden",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "SG",
+   "name": "Singapore",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "SI",
+   "name": "Slovenia",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "SK",
+   "name": "Slovakia",
+   "unMember": true,
+   "lanes": [
+    "EU-N"
+   ]
+  },
+  {
+   "iso2": "SL",
+   "name": "Sierra Leone",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "SM",
+   "name": "San Marino",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "SN",
+   "name": "Senegal",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "SO",
+   "name": "Somalia",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "SR",
+   "name": "Suriname",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "SS",
+   "name": "South Sudan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "ST",
+   "name": "Sao Tome and Principe",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "SV",
+   "name": "El Salvador",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "SX",
+   "name": "Sint Maarten",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "SY",
+   "name": "Syria",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "SZ",
+   "name": "Eswatini",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "TC",
+   "name": "Turks and Caicos Islands",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "TD",
+   "name": "Chad",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "TG",
+   "name": "Togo",
+   "unMember": true,
+   "lanes": [
+    "WAF"
+   ]
+  },
+  {
+   "iso2": "TH",
+   "name": "Thailand",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "TJ",
+   "name": "Tajikistan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "TL",
+   "name": "Timor-Leste",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "TM",
+   "name": "Turkmenistan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "TN",
+   "name": "Tunisia",
+   "unMember": true,
+   "lanes": [
+    "NAF"
+   ]
+  },
+  {
+   "iso2": "TO",
+   "name": "Tonga",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "TR",
+   "name": "Türkiye",
+   "unMember": true,
+   "lanes": [
+    "EU-S",
+    "ME"
+   ]
+  },
+  {
+   "iso2": "TT",
+   "name": "Trinidad and Tobago",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "TV",
+   "name": "Tuvalu",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "TW",
+   "name": "Taiwan",
+   "unMember": false,
+   "lanes": [
+    "FE"
+   ]
+  },
+  {
+   "iso2": "TZ",
+   "name": "Tanzania",
+   "unMember": true,
+   "lanes": [
+    "EAF"
+   ]
+  },
+  {
+   "iso2": "UA",
+   "name": "Ukraine",
+   "unMember": true,
+   "lanes": [
+    "EU-S"
+   ]
+  },
+  {
+   "iso2": "UG",
+   "name": "Uganda",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "US",
+   "name": "United States",
+   "unMember": true,
+   "lanes": [
+    "NAM"
+   ]
+  },
+  {
+   "iso2": "UY",
+   "name": "Uruguay",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "UZ",
+   "name": "Uzbekistan",
+   "unMember": true,
+   "lanes": []
+  },
+  {
+   "iso2": "VA",
+   "name": "Holy See",
+   "unMember": false,
+   "lanes": []
+  },
+  {
+   "iso2": "VC",
+   "name": "Saint Vincent and the Grenadines",
+   "unMember": true,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "VE",
+   "name": "Venezuela",
+   "unMember": true,
+   "lanes": [
+    "SAM"
+   ]
+  },
+  {
+   "iso2": "VI",
+   "name": "US Virgin Islands",
+   "unMember": false,
+   "lanes": [
+    "CAR"
+   ]
+  },
+  {
+   "iso2": "VN",
+   "name": "Viet Nam",
+   "unMember": true,
+   "lanes": [
+    "SEA"
+   ]
+  },
+  {
+   "iso2": "VU",
+   "name": "Vanuatu",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "WS",
+   "name": "Samoa",
+   "unMember": true,
+   "lanes": [
+    "OCE"
+   ]
+  },
+  {
+   "iso2": "YE",
+   "name": "Yemen",
+   "unMember": true,
+   "lanes": [
+    "ME"
+   ]
+  },
+  {
+   "iso2": "ZA",
+   "name": "South Africa",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "ZM",
+   "name": "Zambia",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  },
+  {
+   "iso2": "ZW",
+   "name": "Zimbabwe",
+   "unMember": true,
+   "lanes": [
+    "SAF"
+   ]
+  }
+ ]
+}
